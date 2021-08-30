@@ -238,6 +238,7 @@ footer {
 @media (max-width: 550px) {
     #bottom-footer {
         flex-wrap: wrap;
+        justify-content: center;
     }
     #right-footer, #left-footer {
         flex-wrap: wrap;
