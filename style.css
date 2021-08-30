@@ -228,14 +228,21 @@ footer {
 #bottom-footer {
     padding-top: 15px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 #right-footer, #left-footer {
     display: flex;
-    flex-wrap: wrap;
-    margin: auto;
+}
+
+@media (max-width: 550px) {
+    #bottom-footer {
+        flex-wrap: wrap;
+    }
+    #right-footer, #left-footer {
+        flex-wrap: wrap;
+    }
+    
 }
 
 #right-footer {
