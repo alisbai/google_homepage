@@ -233,6 +233,7 @@ footer {
 
 #right-footer, #left-footer {
     display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 550px) {
@@ -246,13 +247,7 @@ footer {
     
 }
 
-#right-footer {
-    justify-content: flex-start;
-}
 
-#left-footer {
-    justify-content: flex-end;
-}
 
 
 
